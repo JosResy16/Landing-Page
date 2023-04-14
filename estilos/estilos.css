@@ -49,7 +49,7 @@ h2 {
 .container {
   max-width: 1800px;
   min-width: 375px;
-  padding: 2em 4em;
+  padding: 2em 2em;
   margin: auto;
 }
 
@@ -562,6 +562,11 @@ main .banner .second_p {
   .works .project-grid .proyect a {
     font-size: 1.1em;
     width: 130px;
+  }
+}
+@media (min-width: 934px) {
+  .container {
+    padding: 2em 4em;
   }
 }
 @media (min-width: 966px) {
